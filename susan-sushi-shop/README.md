@@ -1,4 +1,4 @@
-# Susan's Sushi Shop
+# Susan's Sushi Shop 🍣
 
 This is a full-stack web application.
 
@@ -19,5 +19,5 @@ This is a full-stack web application.
 
 ## Database
 
-1. MongoDB is used.
+1. MongoDB is used. I've not included the env file in gitignore in order to ease the setting up of the project and its database in your system. Will update it again after evaluation.
 <!-- Run the SQL scripts in `backend/sql/create_tables.sql` to set up the necessary tables. -->
