@@ -1,6 +1,5 @@
 const Order = require('../models/order');
 
-
 exports.addToCart = async (req, res) => {
     const { sushiA, sushiB } = req.body;
     const priceA = 3;

@@ -21,7 +21,6 @@ function PlaceOrder() {
         let discount = 0;
         let description = '';
 
-        // Apply piece-based discounts
         if (totalPieces >= 20) {
             discount = 0.20;
             description = '20%';
@@ -30,7 +29,6 @@ function PlaceOrder() {
             description = '10%';
         }
 
-        // Apply "Lunch Deal" if applicable
         const now = new Date();
         const currentHour = now.getHours();
         if (currentHour >= 11 && currentHour <= 14) {
@@ -47,7 +45,6 @@ function PlaceOrder() {
         setFinalPrice(finalPrice.toFixed(2));
         setDiscountDescription(description);
 
-        // Reset error message
         setErrorMessage('');
     };
 

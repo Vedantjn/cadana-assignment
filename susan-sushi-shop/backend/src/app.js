@@ -1,5 +1,5 @@
 const express = require('express');
-const cors = require('cors'); // Import cors package
+const cors = require('cors');
 const mongoose = require('mongoose');
 const orderRoutes = require('./routes/orderRoutes');
 require('dotenv').config();
@@ -8,7 +8,6 @@ require('dotenv').config();
 const app = express();
 const PORT = process.env.PORT || 5000;
 
-// Enable CORS middleware
 app.use(cors());
 
 mongoose.connect(process.env.MONGODB_URI)
