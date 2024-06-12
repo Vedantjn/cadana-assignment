@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* App.css */
+h1 {
+    text-align: center; /* Center the heading horizontally */
+    margin-top: 20px; /* Add space at the top */
+    margin-bottom: 20px; /* Add space at the bottom */
+  }
+  

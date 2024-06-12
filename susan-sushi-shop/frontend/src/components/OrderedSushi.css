@@ -1,0 +1,39 @@
+.ordered-sushi-container {
+    padding: 2%;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.ordered-sushi-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.ordered-sushi-item {
+    border: 1px solid #F6DCAC;
+    padding: 2%;
+    margin-bottom: 2%;
+    background-color: #FEAE6F;
+    font-size: 1.2em;
+}
+
+.order-title {
+    font-weight: bold;
+    color: #01204E;
+    font-size: 1.2em;
+}
+
+.order-value {
+    color: #028391;
+    font-size: 1.2em;
+}
+
+.no-sushi-message {
+    font-style: italic;
+    color: #028391;
+    font-size: 1.2em;
+}

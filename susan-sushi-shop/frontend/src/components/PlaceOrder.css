@@ -1,0 +1,80 @@
+.place-order-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f3f7ec; /* Light gray background */
+}
+
+.order-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff; /* White background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    max-width: 400px;
+    width: 90%;
+}
+
+.sushi-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.sushi-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.sushi-image {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.order-input {
+    width: 100%;
+    padding: 15px; /* Increased padding for larger input size */
+    margin-bottom: 10px;
+    border: 1px solid #ced4da; /* Gray border */
+    border-radius: 4px;
+    font-size: 16px; /* Increased font size */
+}
+
+.calculate-button,
+.order-button {
+    width: 100%;
+    padding: 15px; /* Increased padding for larger button size */
+    background-color: #006989; /* Blue button */
+    color: #fff; /* White text */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition */
+    font-size: 16px; /* Increased font size */
+}
+
+.calculate-button:hover,
+.order-button:hover {
+    background-color: #005c78; /* Darker blue on hover */
+}
+
+.price-details {
+    margin-top: 20px; /* Add space between buttons and price details */
+    margin-bottom: 20px; /* Add space between buttons and price details */
+}
+
+.price-details p {
+    margin: 5px 0; /* Add margin to price details paragraphs */
+}
+
+.error-message {
+    color: red;
+    margin-top: 5px;
+}
